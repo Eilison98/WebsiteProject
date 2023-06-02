@@ -127,7 +127,7 @@ h1 {
   border-right: 1px solid gray;
 }
 
-/* Main Text */
+/* Main Text 00 */
 .main_text0 {
   width: 100%;
   height: 601px;
@@ -168,7 +168,7 @@ h1 {
 }
 
 .icons .contents3 {
-  width: 180px;
+  width: 250px;
   margin: auto;
 }
 
@@ -181,4 +181,43 @@ h1 {
   line-height: 30px;
   font-size: 12px;
   margin: 25px auto;
+}
+
+/* Main Text 01 */
+.main_text1 {
+  width: 100%;
+  height: 659px;
+}
+
+.main_text1 > h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.main_text1 > .contents1 {
+  text-align: center;
+  margin-top: 3px;
+}
+
+/* Main Text02 */
+.main_text2 {
+  width: 100%;
+  height: 417.81px;
+  background-image: url(../image/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 244px;
+  background-color: #1F1F1F;
+}
+
+footer .footer_logo > h1 {
+  color: #fff;
+  margin-left: 320px;
+  padding-top: 87.5px;
 }
